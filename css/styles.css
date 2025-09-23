@@ -152,3 +152,32 @@ img {
     letter-spacing: 0.5px; /* slight letter spacing */
 
 }
+
+.aboutcreator {
+    background-color: #6C5619;
+    padding: 20px 20px;
+    text-align: center; 
+}
+
+.aboutcreator h4 {
+    font-size: 24px; 
+    margin-bottom: 10px; 
+    color: #FAD3D8;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px; 
+    font-family: 'Arial Black', sans-serif; 
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
+    border-bottom: 2px solid #FAD3D8; 
+    display: inline-block; 
+    padding-bottom: 10px; 
+}
+.aboutcreator p {
+    color: #FAD3D8;
+    font-size: 1.2rem;
+    line-height: 1.4; 
+    font-family: 'Arial', sans-serif; 
+    text-align: center;
+    padding: 0 10px; 
+    letter-spacing: 0.5px; 
+}
