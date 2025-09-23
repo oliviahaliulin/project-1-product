@@ -54,6 +54,15 @@ h1 {
     display: flex;
     justify-content: flex-end;
     padding: 20px 100px;
+    font-size: 28px; /* make heading stand out */
+    margin-bottom: 10px; /* add space below heading */
+    color: #FAD3D8;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px; /* space out letters */
+    font-family: 'Arial Black', sans-serif; /* bold font */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* subtle shadow */
+    padding-bottom: 10px; /* space between text and underline */
 }
 a {
     color: #FAD3D8;
@@ -85,4 +94,61 @@ img {
     font-size: 3rem;
     text-align: flex-start; 
     padding: 40px 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px; /* space out letters */
+    font-family: 'Arial Black', sans-serif; /* bold font */
+    
+}
+
+.characters {
+    padding: 20px 20px;
+    background-color: #3F290A;
+    text-align: center; /* centers the heading */
+}
+
+.characters h3 {
+    font-size: 28px; /* make heading stand out */
+    margin-bottom: 10px; /* add space below heading */
+    color: #FAD3D8;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px; /* space out letters */
+    font-family: 'Arial Black', sans-serif; /* bold font */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* subtle shadow */
+    border-bottom: 2px solid #FAD3D8; /* underline effect */
+    display: inline-block; /* shrink to fit content */
+    padding-bottom: 10px; /* space between text and underline */
+}
+
+.character-list {
+    display: flex;
+    justify-content: center; /* centers items */
+    gap: 40px; /* space between items */
+    flex-wrap: wrap;
+}
+
+.character-item {
+    text-align: center;
+    max-width: 400px; /* bigger box */
+    padding: 50px 10px; /* space inside box */
+
+}
+
+.character-item img {
+    width: 100%; /* fits container */
+    max-width: 300px; /* make images larger */
+    height: auto;
+    border-radius: 15px;
+}
+.character-item p {
+    color: #FAD3D8;
+    font-size: 1.2rem;
+    margin-top: 20px;
+    line-height: 1.4; /* improve readability */
+    font-family: 'Arial', sans-serif; /* clean font */
+    text-align: center;
+    padding: 0 10px; /* space around text */
+    letter-spacing: 0.5px; /* slight letter spacing */
+
 }
