@@ -181,3 +181,60 @@ img {
     padding: 0 10px; 
     letter-spacing: 0.5px; 
 }
+
+.gallery {
+    padding: 20px 20px;
+    background-color: #3F290A;
+    text-align: center; 
+}
+
+.gallery h5 {
+    font-size: 24px; 
+    margin-bottom: 10px; 
+    color: #FAD3D8;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px; 
+    font-family: 'Arial Black', sans-serif; 
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
+    border-bottom: 2px solid #FAD3D8; 
+    display: inline-block; 
+    padding-bottom: 10px;
+}
+
+.gallery-list {
+    display: flex;
+    justify-content: center; 
+    gap: 15px;       /* smaller spacing */
+    flex-wrap: wrap; /* wrap into new rows */
+}
+
+.gallery-item {
+    text-align: center;
+    flex: 0 1 220px; /* keeps items around the same size */
+    padding: 5px;    /* tighter spacing around each item */
+}
+
+.gallery-item img {
+    max-width: 220px;  /* consistent sizing */
+    max-height: 220px; /* keeps things uniform */
+    width: auto;       /* no stretching */
+    height: auto;
+    object-fit: contain;
+    display: block;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+.footer {
+    background-color: #6C5619;
+    text-align: center;
+    padding: 20px 10px;
+    font-size: 0.9rem;
+    color: #FAD3D8;
+    font-family: 'Arial', sans-serif;
+    letter-spacing: 0.5px;
+    line-height: 1.4;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.3); /* subtle shadow */
+
+
+}
