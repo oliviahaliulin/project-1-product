@@ -71,3 +71,18 @@ img {
     align-items: center;
     background-color: #3F290A;
 }
+
+.image {
+    background-image: url('/Users/oliviahaliulin/Documents/Work/Nossi/wl195/project-1-product/img/Screenshot\ 2025-09-22\ at\ 20.35.49.png');
+    background-size: cover;
+    background-position: center;
+    width: 100vw;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+.image h2 {
+    color: #3F290A;
+    font-size: 3rem;
+    text-align: flex-start; 
+    padding: 40px 20px;
+}
