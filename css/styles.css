@@ -53,7 +53,7 @@ h1 {
     background-color: #3F290A;
     display: flex;
     justify-content: flex-end;
-    padding: 20px 100px;
+    padding: 5vw;
     font-size: 28px; /* make heading stand out */
     margin-bottom: 10px; /* add space below heading */
     color: #FAD3D8;
@@ -79,6 +79,15 @@ img {
     display: flex;
     align-items: center;
     background-color: #3F290A;
+    flex-flow: row wrap;
+}
+.header img {
+    height: auto;
+    width: 40vw;
+}
+
+.header h1 {
+    width: 40vw;
 }
 
 .image {
@@ -237,4 +246,34 @@ img {
     box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.3); /* subtle shadow */
 
 
+}
+
+@media (max-width: 768px) {
+    .character-list, .gallery-list {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .character-item, .gallery-item {
+        max-width: 90%;
+        margin-bottom: 20px;
+    }
+
+    h1 {
+        font-size: 24px;
+        padding: 15px 50px;
+    }
+
+    .image h2 {
+        font-size: 2rem;
+        padding: 30px 10px;
+    }
+
+    .characters h3, .aboutcreator h4, .gallery h5 {
+        font-size: 20px;
+    }
+
+    .header img, .header h1 {
+        width: 90vw;
+    }
 }
